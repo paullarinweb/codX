@@ -1,0 +1,88 @@
+@import "vars";
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    &::before,
+    &::after {
+        box-sizing: border-box;
+    }
+}
+:focus,
+:active {
+    outline: none;
+}
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    -webkit-text-size-adjust: 100%;
+    font-family: "Outfit";
+    font-style: normal;
+    color: $gray;
+    letter-spacing: 0.48px;
+}
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+input::-ms-clear {
+    display: none;
+}
+button {
+    cursor: pointer;
+}
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.4s linear;
+    &:focus,
+    &:active {
+        outline: none;
+    }
+    &:hover {
+        text-decoration: none;
+        color: $red;
+    }
+}
+ul,
+li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+._container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+._container__small {
+    max-width: 1092px;
+    margin: 0 auto;
+    padding: 0 10px;
+}

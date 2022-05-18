@@ -1,0 +1,36 @@
+@import "vars";
+@import "media";
+
+.text {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.header__text {
+    font-size: 30px;
+    line-height: 30px;
+    @include for-tablet-landscape-up {
+        font-size: 4.45vw;
+        line-height: 64px;
+    }
+    @include for-big-desktop-up {
+        font-size: 70px;
+        line-height: 70px;
+    }
+}
+
+.white {
+    background: #fff;
+    transition: all 0.5s linear;
+}
+
+.btn {
+    background: $black;
+    color: white;
+}
+
+.btn-outline {
+    background: transparent !important;
+    color: $black !important;
+    border: 1px solid #2f2f2f;
+}

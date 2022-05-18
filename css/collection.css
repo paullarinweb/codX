@@ -1,0 +1,12 @@
+.collection {
+  padding-bottom: 30px;
+}
+
+.collection__img {
+  width: 152px;
+  aspect-ratio: 1/1;
+}
+
+.splide__slide {
+  width: 152px !important;
+}

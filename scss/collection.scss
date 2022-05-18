@@ -1,0 +1,33 @@
+@import "vars";
+@import "media";
+
+.collection {
+    // .collection__slider
+    padding-bottom: 30px;
+    &__slider {
+    }
+
+    // .collection__img
+
+    &__img {
+        width: 152px;
+        aspect-ratio: 1/1;
+    }
+}
+.splide {
+    // .splide__track
+
+    &__track {
+    }
+
+    // .splide__list
+
+    &__list {
+    }
+
+    // .splide__slide
+
+    &__slide {
+        width: 152px !important;
+    }
+}
