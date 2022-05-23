@@ -45,6 +45,14 @@ new Splide(".collection__slider", {
   rewind: true,
   pagination: false,
   arrows: false,
+  breakpoints: {
+    2600: {
+      perPage: 20,
+    },
+    1440: {
+      perPage: 10,
+    },
+  },
 }).mount();
 
 // tabs
